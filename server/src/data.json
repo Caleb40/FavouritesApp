@@ -1,0 +1,16 @@
+[
+  {
+    "address": "A House in the middle of nowhere",
+    "description": "It's pretty chill tbh",
+    "image": "https://i.imgur.com/3BJ92mc.jpeg",
+    "title": "Just another house",
+    "id": 1
+  },
+  {
+    "title": "A Meeting place",
+    "image": "https://i.imgur.com/KbwPb6Y.jpeg",
+    "address": "A house address",
+    "description": "idk mann",
+    "id": 2
+  }
+]

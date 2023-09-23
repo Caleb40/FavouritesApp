@@ -5,11 +5,13 @@ import MeetupList from "../components/meetups/MeetupList";
 function AllMeetupsPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedMeetups, setLoadedMeetups] = useState([]);
+  // const dataSource1 = "https://react-tutorial-fcbb5-default-rtdb.firebaseio.com/meetups.json"
+  const dataSource2 = "http://localhost:5000/api/meetups"
 
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      "https://react-tutorial-fcbb5-default-rtdb.firebaseio.com/meetups.json"
+      dataSource2,
     )
       .then((response) => {
         return response.json();
